@@ -9,7 +9,8 @@
   "author": "Bryant Pyram",
   "license": "ISC",
   "dependencies": {
-    "@slack/bolt": "^3.12.2"
+    "@slack/bolt": "^3.12.2",
+    "dotenv": "^16.0.3"
   },
   "devDependencies": {
     "dotenv-webpack": "^2.0.0"

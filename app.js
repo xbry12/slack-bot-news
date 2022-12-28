@@ -1,4 +1,9 @@
 require('dotenv').config();
+console.log(process.env.SLACK_BOT_TOKEN);
+
+console.log(process.env.SLACK_SIGNING_SECRET);
+console.log(process.env.SLACK_APP_TOKEN);
+
 const { App, HTTPResponseAck } = require('@slack/bolt');
 
 
@@ -10,15 +15,7 @@ const app = new App({
     appToken: process.env.SLACK_APP_TOKEN
 });
 
-// Listens to incoming messages that contain "hello"
-
-// The echo command simply echoes on command
-app.command('/echo', async ({ command, ack, respond }) => {
-    // Acknowledge command request
-    await ack();
-
-    await respond(`${command.text}`);
-});
+// Listens to incoming command that says '/news'
 
 app.command('/news', async ({ command, ack, say }) => {
     console.log(command);
@@ -71,6 +68,7 @@ app.command('/news', async ({ command, ack, say }) => {
 });
 
 (async () => {
+   
     // Start your app
     await app.start(process.env.PORT || 3000);
 
