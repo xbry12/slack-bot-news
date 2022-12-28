@@ -25,14 +25,15 @@ npm install@latest -g
 ### Installation
 1. Generate API Key: 
 2. Clone this repo
-git clone 
-
+``` sh
+git clone https://github.com/xbry12/slack-bot-news.git
+```
 3. Install NPM Packages 
 ``` sh 
 npm install 
 ```
 ``` sh
- npm init 
+npm init 
  ```
 
 4. Enter your API in config.js
@@ -54,4 +55,5 @@ Contact
 Bryant Pyram - bryant.pyram@gmail.com / BPyram@cvent.com
 
 Ackowledgements 
+Here are the resources used for the project. 
 https://slack.dev/bolt-js/tutorial/getting-started
