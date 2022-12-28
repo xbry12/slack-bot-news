@@ -9,6 +9,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Javascript-yellow" />
      <img src="https://img.shields.io/badge/-node.js-green" />
+     * [[!Slack][https://slack.com/][Slack-url]
 </p>
 
 <!-- GETTING STARTED -->
@@ -38,8 +39,9 @@ npm init
  ```
 
 4. Enter your API in config.js
-
+``` sh
 const API_KEY = 'Enter your API KEY';
+```
 
 5. Start the app 
 node app.js
