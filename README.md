@@ -9,7 +9,7 @@
 <p align="center">
     <img src="https://img.shields.io/badge/Javascript-yellow" />
      <img src="https://img.shields.io/badge/-node.js-green" />
-     * [[!Slack][https://slack.com/][Slack-url]
+     * [![Slack][https://slack.com/]][Slack-url]
 </p>
 
 <!-- GETTING STARTED -->
