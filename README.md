@@ -11,8 +11,6 @@
      <img src="https://img.shields.io/badge/-node.js-green" />
 
 </p>
-     * [![Slack][slack.com]][Slack-url]
-     * [![Next][Next.js]][Next-url]
 <!-- GETTING STARTED -->
 
 ## Getting Started
