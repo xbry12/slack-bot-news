@@ -1,4 +1,4 @@
-# YOUR PROJECT TITLE
+# SLACK DAILY 
 
 #### Description:
 
@@ -19,9 +19,10 @@
 ## Prerequisites 
 For this project you will need 
 
-*npm
+* npm
+``` sh
 npm install@latest -g
-
+```
 ### Installation
 1. Generate API Key: 
 2. Clone this repo
