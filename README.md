@@ -3,6 +3,14 @@
 #### Description:
 
 ## About The Project
+
+P1 : info and intro about app
+P2: usage choice
+P3: interactivity and what the app does 
+P4: tech stack choice 
+Conclusion: sell the app, general use for non-techies, with more infrastructure work it can be deployed onto the slack app, etc..
+currently on dev. api key, can easily obtain a premium api key for further use
+
 <hr>
 
 ### Built With:
@@ -14,18 +22,18 @@
 <!-- GETTING STARTED -->
 
 ## Getting Started
+
+https://slack.dev/bolt-js/tutorial/getting-started
+
 <hr>
 
 ## Prerequisites 
 For this project you will need 
 
-* npm
-``` sh
-npm install@latest -g
-```
+* node version v19.3.0
+
 ### Installation
-1. Generate API Key: 
-2. Clone this repo
+1. Clone this repo
 ``` sh
 git clone https://github.com/xbry12/slack-bot-news.git
 ```
