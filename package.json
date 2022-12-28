@@ -1,0 +1,17 @@
+{
+  "name": "slack-app",
+  "version": "1.0.0",
+  "description": "cs 50 final project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bryant Pyram",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/bolt": "^3.12.2"
+  },
+  "devDependencies": {
+    "dotenv-webpack": "^2.0.0"
+  }
+}

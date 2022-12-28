@@ -1,0 +1,99 @@
+// var req = new Request(url);
+//  fetch(req)
+//     .then(function(response) {
+//         console.log(response.json());
+//     })
+
+// fetch(url, {
+//     method: "GET",
+//     body: {
+
+//     }
+// }).then(res => {
+//         if (res.ok) {
+//             console.log('Success!')
+//         }
+//         else {
+//             console.log( 'Unsuccesful')
+//         }
+//     })
+//     .then(data => console.log(data))
+//     .catch(error => console.log('ERROR'))
+
+
+
+// var url = 'https://newsapi.org/v2/top-headlines?' +
+//           'country=us&' +
+//           'apiKey=API_KEY';
+// var req = new Request(url);
+// fetch(req)
+//     .then(function(response) {
+//         console.log(response.json());
+//     })
+// // Listens to incoming messages that contain "hello"
+// app.message('news', async ({ message, say }) => {
+//     // say() sends a message to the channel where the event was triggered
+//     var url = 'https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=dcd8f6cdbfa344d7baa998e7ad19d61c'
+
+//     const json_response = await fetch(url).then((response) => {
+//         return response.json();
+//     }).catch((err) => {
+//         console.log('rejected', err);
+//     });
+
+//     // in blocks array we want a certain amount of articles.title
+//     // we will limit the amount to 5
+//     // make an empty array and push the data from your loop into that array
+//     // return that data back to the user 
+
+//     var articles_array = []
+
+//     for (let i = 0; i < 5; i++) {
+//         articles_array.push({
+//             "type": "section",
+//             "text": {
+//                 "type": "mrkdwn",
+//                 "text": `<${json_response.articles[i].url}|${json_response.articles[i].title}>`
+//             }
+//         }
+//         )
+//     }
+
+//     await say({
+//         blocks: articles_array
+//     });
+// });
+
+
+// can i turn this off
+// do i want to
+// can I use unfurl 
+// format data***
+// pagination (next 5)
+// limit (top 5)
+// search function 
+// news (tesla, etc...)
+// link to story, (title)
+// url to image (thumbnail)
+// truncated description (50 words)
+// what stories do you want? latest, top publishers etc...
+// accept input ? Give me top 10, latest, top 15 etc.. -> use input to restrict stories returned
+//  to slack
+// how do I want 1 result to look ? -> title, link to story, thumbnail image, 
+
+// foucs on headlines and links (done)
+// -> hardcode number of headlines
+// accept one word as my query parameter (or phrase) -> implement into url dynamically
+// q = (search for something meaningful)
+// mvp --> print top 5 headlines, have them be links  (done)
+
+// really easy + important
+
+// medium difficulty
+
+// important / difficult
+
+
+
+                // "image_url":'https://assets-prd.ignimgs.com/2022/06/10/tmnt-shredders-revenge-blog-1615290517603-1654851137556.jpg?width=1280',
+        // console.log(json_response.articles[i].urlToImage);
