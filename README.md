@@ -57,5 +57,6 @@ Bryant Pyram - bryant.pyram@gmail.com / BPyram@cvent.com
 
 Ackowledgements 
 Here are the resources used for the project. 
+    
 https://slack.dev/bolt-js/tutorial/getting-started - Slack Bolt SDK
 https://newsapi.org/docs/endpoints/top-headlines - News API
