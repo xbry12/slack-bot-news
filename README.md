@@ -67,3 +67,11 @@ Bryant Pyram - bryant.pyram@gmail.com / BPyram@cvent.com
 Ackowledgements 
 Here are the resources used for the project. 
 https://slack.dev/bolt-js/tutorial/getting-started
+
+
+<!--  -->
+
+explain how to setup env
+explain slack app, workspace 
+acknowledge heavy workload of downloading project
+the purpose was to create a news api that could extend past its current use
