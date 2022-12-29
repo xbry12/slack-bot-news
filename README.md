@@ -1,16 +1,26 @@
-# SLACK DAILY 
+# WELCOME TO MY NEWS BOT : SLACK DAILY 
 
 #### Description:
 
-## About The Project
+# About The Project
 
-P1 : info and intro about app
-P2: usage choice
-P3: interactivity and what the app does 
-P4: tech stack choice 
-Conclusion: sell the app, general use for non-techies, with more infrastructure work it can be deployed onto the slack app, etc..
-currently on dev. api key, can easily obtain a premium api key for further use
+## 1. Intro
+This is my final project submission for CS50. We were tasked with building something that is useful, and demonstrates what we've learned in the course. I decided to build a slack bot gives the user news information. The app returns the top 5 stories from the [News API](https://newsapi.org/docs/endpoints/top-headlines) in a given category. I believe this was a good way for me to return to my first coding language, JavaScript, while still trying something new and implementing my newfound cs50 knowledge.
 
+## 2. Usage 
+The app provides a slash command ("/news") that accepts a single parameter, the category of news that the user is interested in. If the user doesn't provide a category, a helpful message lists all available categories and prompts the user to try again. A potential enhancement could be to have the app open a modal with a category selector instead of the text prompt.  
+
+## 3. Tech decisions
+I decided to use JavaScript and NodeJS because this was what I was most comfortable with. I used [Slack's Bolt SDK](https://slack.dev/bolt-js/concepts#basic) to build the interaction with Slack, and [News API](https://newsapi.org/docs/endpoints/top-headlines) for the datasource. Since this is a slack bot, I used Slack's Bolt SDK as my baseline for the app, and added the functionality. I was glad that slack had so many options to make the app dynamic, specifically allowing me to implement a slash command for simplicity, while still allowing me to aggregate data comfortably. I used ``dotenv`` as well so that I would be able to store all of my keys. 
+
+## 4. Conclusion:
+Currently the bot is dynamic in usage, but I left room for improvement. The user experience can be improved, and so can the design. The intention was to build an app that would be easy to use for people who do not have a technical background, so I tried to write the help message in plain English and avoid CLI-style documentation. As more features are added, I intend to add a help command for more technical users. Since running the app currently requires a Slack workspace administrator to create a slack app in their workspace, I used the dotenv package to handle environment variables. When a slack app is created, the tokens it generates can simply be added to a .env file at the root of the project, and don't require any further configuration from the administrator. I am currently using a developer api key which I received from the News API, maybe in the future a premium api key can be purchased for further use. I enjoyed using Slack Bolt SDK. One thing I have a better understanding of after building this project is asynchronus and synchronus programming in JavaScript. Also...
+## THIS IS CS50! 
+
+## 5. Future Enhancements
+* Category Selection Modal - When a user doesn't enter a category as a parameter to the slash command, open a modal with a pre-populated category selector.
+* More options - Allow user to specify country, category and additional search terms.
+* Improved UI - Truncated description, author of article, reduce image size for cleaner and more compact look.
 <hr>
 
 ### Built With:
@@ -21,57 +31,25 @@ currently on dev. api key, can easily obtain a premium api key for further use
 </p>
 <!-- GETTING STARTED -->
 
-## Getting Started
+# Getting Started
+
+* To run this, a slack app must be created in the Slack workspace. Tokens must be added within our .env file, and then JavaScript will be ran locally.
 
 https://slack.dev/bolt-js/tutorial/getting-started
 
-<hr>
-
-## Prerequisites 
+# Prerequisites 
 For this project you will need 
 
 * node version v19.3.0
-
-### Installation
-1. Clone this repo
-``` sh
-git clone https://github.com/xbry12/slack-bot-news.git
-```
-3. Install NPM Packages 
-``` sh 
-npm install 
-```
-``` sh
-npm init 
- ```
-
-4. Enter your API in config.js
-``` sh
-const API_KEY = 'Enter your API KEY';
-```
-
-5. Start the app 
-node app.js
-
-
-Usage 
-This project is the beginnings of a Slack Bot that generates news. It currently generates news pertaining to the tech industry, specifically, the video game niche. 
-Below is a demo of me using a "/slash" command in Slack to start the bot. 
+* ``dotenv`` to store environment variables locally.
 
 #### Video Demo:  <URL HERE>
+    
+<hr>
 
-
-Contact
+## Contact
 Bryant Pyram - bryant.pyram@gmail.com / BPyram@cvent.com
 
 Ackowledgements 
 Here are the resources used for the project. 
 https://slack.dev/bolt-js/tutorial/getting-started
-
-
-<!--  -->
-
-explain how to setup env
-explain slack app, workspace 
-acknowledge heavy workload of downloading project
-the purpose was to create a news api that could extend past its current use
