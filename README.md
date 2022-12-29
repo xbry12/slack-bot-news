@@ -27,44 +27,22 @@ Currently the bot is dynamic in usage, but I left room for improvement. The user
 </p>
 <!-- GETTING STARTED -->
 
-## Getting Started
+# Getting Started
 
 https://slack.dev/bolt-js/tutorial/getting-started
 
 <hr>
 
-## Prerequisites 
+# Prerequisites 
 For this project you will need 
 
 * node version v19.3.0
-
-### Installation
-1. Clone this repo
-``` sh
-git clone https://github.com/xbry12/slack-bot-news.git
-```
-3. Install NPM Packages 
-``` sh 
-npm install 
-```
-``` sh
-npm init 
- ```
-
-4. Enter your API in config.js
-``` sh
-const API_KEY = 'Enter your API KEY';
-```
-
-5. Start the app 
-node app.js
-
-
-Usage 
-This project is the beginnings of a Slack Bot that generates news. It currently generates news pertaining to the tech industry, specifically, the video game niche. 
-Below is a demo of me using a "/slash" command in Slack to start the bot. 
-
 #### Video Demo:  <URL HERE>
+    
+
+
+
+
 
 
 Contact
