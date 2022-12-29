@@ -43,7 +43,7 @@ For this project you will need
 * node version v19.3.0
 * ``dotenv`` to store environment variables locally.
 
-#### Video Demo:  <URL https://youtu.be/1tCIR_UAhMM>
+#### Video Demo: https://youtu.be/1tCIR_UAhMM
     
 <hr>
 
