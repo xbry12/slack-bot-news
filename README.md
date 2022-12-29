@@ -1,10 +1,10 @@
-# SLACK DAILY 
+# WELCOME TO MY NEWS BOT : SLACK DAILY 
 
 #### Description:
 
 # About The Project
 
-## Info and intro about app
+## Intro
 I decided to create a slack bot that gives the user news information. Currently the app returns news based on a set amount of categories, listed within the API. I believe this was a good way for me to return to my first coding language, JavaScript, while still trying something new and implementing my newfound cs50 knowledge.
 
 ## Usage choice
