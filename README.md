@@ -5,7 +5,9 @@
 # About The Project
 
 ## Intro
-I decided to create a slack bot that gives the user news information. Currently the app returns news based on a set amount of categories, listed within the API. I believe this was a good way for me to return to my first coding language, JavaScript, while still trying something new and implementing my newfound cs50 knowledge.
+This is my final project submission for CS50. We were tasked with building something that is useful, and demonstrates what we've learned in the course. I decided to build a slack bot gives the user news information. The app returns the top 5 stories from [https://newsapi.org/docs/endpoints/top-headlines] (News API)in a given category.
+
+Currently the app returns news based on a set amount of categories, listed within the API. I believe this was a good way for me to return to my first coding language, JavaScript, while still trying something new and implementing my newfound cs50 knowledge.
 
 ## Usage choice
 I decided to use JavaScript and NodeJS because this was what I was most comfortable with. Since this is a slack bot, I used Slack's Bolt SDK as my baseline for the app, and added the functionality. I was glad that slack had so many options to make the app dynamic. 
