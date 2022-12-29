@@ -11,7 +11,7 @@ const app = new App({
 
 // Listens to incoming command that says '/news'
 app.command('/news', async ({ command, ack, say }) => {
-    console.log(command);
+    
     await ack()
     // say() sends a message to the channel where the event was triggered
     var url = `https://newsapi.org/v2/top-headlines?country=us&category=${command.text}&apiKey=${process.env.API_KEY}`
