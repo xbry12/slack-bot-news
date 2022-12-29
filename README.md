@@ -5,7 +5,7 @@
 # About The Project
 
 ## Intro
-This is my final project submission for CS50. We were tasked with building something that is useful, and demonstrates what we've learned in the course. I decided to build a slack bot gives the user news information. The app returns the top 5 stories from [News API][https://newsapi.org/docs/endpoints/top-headlines]in a given category.
+This is my final project submission for CS50. We were tasked with building something that is useful, and demonstrates what we've learned in the course. I decided to build a slack bot gives the user news information. The app returns the top 5 stories from [News API](https://newsapi.org/docs/endpoints/top-headlines)in a given category.
 
 Currently the app returns news based on a set amount of categories, listed within the API. I believe this was a good way for me to return to my first coding language, JavaScript, while still trying something new and implementing my newfound cs50 knowledge.
 
