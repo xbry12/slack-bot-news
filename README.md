@@ -32,25 +32,18 @@ Currently the bot is dynamic in usage, but I left room for improvement. The user
 
 # Getting Started
 
-Flesh this out more. Explain that you have to create the slack app in your workspace, then add the tokens to your .env file, and then run the javascript code locally
-
 * To run this, a slack app must be created in the Slack workspace. Tokens must be added within our .env file, and then JavaScript will be ran locally.
 
 https://slack.dev/bolt-js/tutorial/getting-started
-
-<hr>
 
 # Prerequisites 
 For this project you will need 
 
 * node version v19.3.0
+
 #### Video Demo:  <URL HERE>
     
-
-
-
-
-
+<hr>
 
 ## Contact
 Bryant Pyram - bryant.pyram@gmail.com / BPyram@cvent.com
