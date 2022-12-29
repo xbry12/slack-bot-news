@@ -19,7 +19,8 @@ Currently the bot is dynamic in usage, but I left room for improvement. The user
 
 ## 5. Future Enhancements
 * Category Selection Modal - When a user doesn't enter a category as a parameter to the slash command, open a modal with a pre-populated category selector.
-* More options - Qllow user to specify country, category and additional search terms.
+* More options - Allow user to specify country, category and additional search terms.
+* Improved UI - Truncated description, author of article, reduce image size for cleaner and more compact look.
 <hr>
 
 ### Built With:
