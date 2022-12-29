@@ -15,7 +15,7 @@ I decided to use JavaScript and NodeJS because this was what I was most comforta
 
 ## 4. Conclusion:
 Currently the bot is dynamic in usage, but I left room for improvement. The user experience can be improved, and so can the design. The intention was to build an app that would be easy to use for people who do not have a technical background, so I tried to write the help message in plain English and avoid CLI-style documentation. As more features are added, I intend to add a help command for more technical users. Since running the app currently requires a Slack workspace administrator to create a slack app in their workspace, I used the dotenv package to handle environment variables. When a slack app is created, the tokens it generates can simply be added to a .env file at the root of the project, and don't require any further configuration from the administrator. I am currently using a developer api key which I received from the News API, maybe in the future a premium api key can be purchased for further use. I enjoyed using Slack Bolt SDK. One thing I have a better understanding of after building this project is asynchronus and synchronus programming in JavaScript. Also...
-### THIS IS CS50! 
+## THIS IS CS50! 
 
 ## 5. Future Enhancements
 * Category Selection Modal - When a user doesn't enter a category as a parameter to the slash command, open a modal with a pre-populated category selector.
